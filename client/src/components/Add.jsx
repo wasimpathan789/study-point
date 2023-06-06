@@ -45,46 +45,46 @@ const Add = () => {
         onSubmit={formHandler}
         className="flex justify-center items-center flex-col w-fit px-8 py-4  h-auto border-2 border-red-300"
       >
-        <h1 className="mb-4 font-bold text-xl ">User Detailssss</h1>
+        <h1 className="mb-4 font-bold text-xl ">User Details</h1>
         <div className=" w-auto h-auto flex flex-col justify-center items-center">
-          <div className="flex justify-start  w-full ">
+          <div className="  flex justify-start  w-full ">
             <label htmlFor="" className=" w-48 h-8">
               Name :{" "}
             </label>
             <input
               className=" bg-yellow-100 outline-none border-r-2 px-4  h-8  border-2 border-yellow-400 mb-4 w-full  "
               type="text"
-              placeholder="Username"
+              placeholder="User Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
           </div>
 
-          <div className="flex justify-start w-full  ">
+          <div className=" min-[180px]:flex-col min-[581px]: flex justify-start  w-full ">
             <label htmlFor="" className=" w-48 h-8">
               Email :{" "}
             </label>
             <input
               className=" bg-yellow-100 outline-none border-r-2 px-4  h-8  border-2 border-yellow-400 mb-4 w-full  "
               type="text"
-              placeholder="User email"
+              placeholder="User Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <div className="flex justify-start w-full  ">
+          <div className=" min-[180px]:flex-col min-[581px]: flex justify-start  w-full ">
             <label htmlFor="" className="w-48 h-8">
               Phone Number :{" "}
             </label>
             <input
               className=" bg-yellow-100 outline-none border-r-2 px-4  h-8  border-2 border-yellow-400 mb-4 w-full  "
               type="text"
-              placeholder="User email"
+              placeholder="User Number"
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
             />
           </div>
-          <div className="flex justify-start w-full  ">
+          <div className=" min-[180px]:flex-col min-[581px]: flex justify-start  w-full ">
             <label htmlFor="" className="w-48 h-8 mb-4">
               Gender :{" "}
             </label>
@@ -97,7 +97,7 @@ const Add = () => {
             </select>
           </div>
 
-          <div className="flex justify-start w-full mb-4  ">
+          <div className=" min-[180px]:flex-col min-[581px]: flex justify-start  w-full ">
             <label htmlFor="" className="w-48 h-8">
               Qualification :{" "}
             </label>
@@ -114,7 +114,7 @@ const Add = () => {
             </select>
           </div>
 
-          <div className="flex justify-start w-full  ">
+          <div className=" min-[180px]:flex-col min-[581px]: flex justify-start  w-full ">
             <label htmlFor="" className="w-48 h-8">
               D.O.B :{" "}
             </label>
@@ -127,7 +127,7 @@ const Add = () => {
             />
           </div>
 
-          <div className="flex justify-start  w-full ">
+          <div className=" min-[180px]:flex-col min-[581px]: flex justify-start  w-full ">
             <label htmlFor="" className="w-48  h-8">
               Joining Date :{" "}
             </label>
@@ -140,7 +140,7 @@ const Add = () => {
             />
           </div>
 
-          <div className="flex justify-start w-full  ">
+          <div className=" min-[180px]:flex-col min-[581px]:flex justify-start  w-full ">
             <label htmlFor="" className="w-48 h-8">
               Address :{" "}
             </label>

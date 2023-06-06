@@ -48,9 +48,9 @@ const AllMembers = () => {
     getData();
   },[])
   return (
-    <div>
-      <h1>All members of Study Point, Basmat</h1>
-      <div className="grid grid-cols-4 p-8 gap-12 ">
+    <div className="lg:p-8 min-[280px]:px-4 py-8 ">
+      <h1 className="text-center mb-8">All members of Study Point, Basmat</h1>
+      <div className="grid  min-[480px]:grid-cols-1 sm:grid-cols-2 min-[970px]:grid-cols-3 gap-8 ">
         {
           data.map((ele)=>(
             <Card key={ele._id} className="  border-2 h-auto border-yellow-400 rounded-md pb-4">
@@ -92,7 +92,7 @@ const AllMembers = () => {
                 <button className="bg-green-300 mt-4 py-2 px-8 rounded-3xl  " onClick={contacHandler}>Contact Details</button>
               </div>
               <div className={open ? "block mt-2" : " hidden"}>
-                <h2 className="flex gap-2 justify-center items-center list-none"> <AiTwotonePhone/>  <li> {ele.phoneNumber}</li></h2>
+                <h2 className="flex gap-2 justify-center items-center list-none"> <AiTwotonePhone style={{rotate:"90deg"}}/>  <li> {ele.phoneNumber}</li></h2>
                 <h2 className="flex gap-2 justify-center items-center list-none "> <ImLocation/> <li> {ele.address}</li></h2>
 
                 
