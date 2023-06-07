@@ -13,8 +13,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const DB_URL = "mongodb://127.0.0.1:27017/student"
 
-mongoose.connect("mongodb://127.0.0.1:27017/student").then(()=>{console.log("Connected to DB")
+mongoose.connect(DB_URL).then(()=>{console.log("Connected to DB")
 
 console.log("hi")}).catch((err)=>console.log("Db not Connected"))
 
