@@ -9,6 +9,8 @@ const userRoutes = require('./routes/userRoutes')
 
 const app = express();
 
+
+
 // middleware 
 app.use(cors());
 app.use(express.json());
@@ -23,3 +25,6 @@ console.log("hi")}).catch((err)=>console.log("Db not Connected"))
 app.listen(8000,()=>console.log("SErver is listening"))
 
 app.use(userRoutes)
+
+console.log(DB_URL);
+console.log("wasim");
