@@ -9,11 +9,13 @@
     "start-server": "cd server && nodemon src/app.js",
     "install-client": "cd client && npm install",
     "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm run start"
+    "start-client": "cd client && npm run start",
+    "start": "nodemon app.js"
   },
   "author": "WasimL Khan",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.1.4"
+    "dotenv": "^16.1.4",
+    "nodemon": "^2.0.22"
   }
 }

@@ -47,7 +47,7 @@ const Add = () => {
       >
         <h1 className="mb-4 font-bold text-xl ">User Details</h1>
         <div className=" w-auto h-auto flex flex-col justify-center items-center">
-          <div className="  flex justify-start  w-full ">
+          <div className="  flex sm:flex-col md:flex-row justify-start  w-full ">
             <label htmlFor="" className=" w-48 h-8">
               Name :{" "}
             </label>
@@ -60,7 +60,7 @@ const Add = () => {
             />
           </div>
 
-          <div className=" min-[180px]:flex-col min-[581px]: flex justify-start  w-full ">
+          <div className=" flex sm:flex-col md:flex-row justify-start  w-full  ">
             <label htmlFor="" className=" w-48 h-8">
               Email :{" "}
             </label>
